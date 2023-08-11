@@ -5,6 +5,21 @@
 }
 img {
    display: flex;
-    width:100px;
-    height:100px;
+    width:500px;
+    height:500px;
+}
+p {
+    text-align: justify;
+}
+.dates {
+   text-align: right;
+}
+.icon-map {
+    margin-right: 400px;
+    float: right;
+    
+}
+.camera-icon {
+  margin-right: 400px;
+  float: right;
 }
