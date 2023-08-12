@@ -1,15 +1,21 @@
+.body{
+   display: contents;
+   padding-inline: 50px;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px; 
 }
-img {
-   display: flex;
-    width:500px;
-    height:500px;
+.img {
+   padding-inline: 100px;
+    width: 50px;
+    height:50px;
 }
-p {
-    text-align: justify;
+.p {
+    text-align: left;
+    text-align: center;
 }
 .dates {
    text-align: right;
@@ -22,4 +28,11 @@ p {
 .camera-icon {
   margin-right: 400px;
   float: right;
+}
+.text{
+text-align: center;
+}
+.w-100 {
+    display: inline;
+     margin-inline: ;
 }
